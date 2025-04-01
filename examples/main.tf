@@ -20,7 +20,7 @@ variable "open_ai_instance" {
 }
 
 module "terraform_azure_openai_deploy" {
-  source              = "github.com/nikhiljohn10/terraform-azure-openai-deploy.git?ref=v0.1.0"
+  source              = "github.com/nikhiljohn10/terraform-azure-openai-deploy.git?ref=v0.1.2"
   subscription_id     = var.subscription_id
   resource_group_name = var.resource_group_name
   location            = var.location

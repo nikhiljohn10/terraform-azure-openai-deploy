@@ -30,9 +30,10 @@ open_ai_instance = {
 1. Install Terraform and Azure CLI.
 2. Go to [Microsoft Entra ID](https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview) service and copy "Tenant ID".
 3. Login to Azure using `az login --tenant TENANT_ID`. Replace `TENANT_ID` in command with Tenant ID copyied from Azure portal.
-4. Save a file `terraform.tfvars` with content in README. You can modify the content as your need.
-5. Create a `main.tf` file as given [here](main.tf).
-6. Execute `./deploy.sh` to deploy the open ai models in Azure.
+4. Change directory to `examples`.
+5. Save a file `terraform.tfvars` with content in README. You can modify the content as your need.
+6. Create a `main.tf` file as given [here](main.tf).
+7. Execute `./deploy.sh` to deploy the open ai models in Azure.
 
 The example will save the api endpoint and api key of Azure AI Instance as environment file in same folder.
 
