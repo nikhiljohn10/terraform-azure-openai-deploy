@@ -10,7 +10,6 @@ variable "resource_group_name" {
 
 variable "location" {
   description = "The Azure region where resources will be deployed."
-  default     = "japaneast"
   type        = string
 }
 
